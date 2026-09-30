@@ -1,0 +1,1576 @@
+[
+  {
+    "candidate_id": "calendar:convert_currency",
+    "candidate_family": "calendar",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.02399999999999991,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.05263157894736842,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02053858276563454,
+      "full_linear": 0.020561705707294844,
+      "full_gbr": 0.02220773402443208
+    }
+  },
+  {
+    "candidate_id": "calendar:check_weather",
+    "candidate_family": "calendar",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.02399999999999991,
+    "features": {
+      "semantic_max_sim": 0.04124746069427402,
+      "semantic_mean_sim": 0.006874576782379003,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02069583196364125,
+      "full_linear": 0.02042795721249746,
+      "full_gbr": 0.03553732682688867
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.84,
+        0.72,
+        0.76,
+        0.84
+      ],
+      "treatment_losses": [
+        0.8,
+        0.84,
+        0.76,
+        0.8,
+        0.84
+      ],
+      "baseline_mean": 0.784,
+      "baseline_std": 0.047999999999999994,
+      "treatment_mean": 0.808,
+      "treatment_std": 0.02993325909419151,
+      "delta_mean": 0.02400000000000002,
+      "delta_std": 0.019595917942265444
+    }
+  },
+  {
+    "candidate_id": "calendar:schedule_event",
+    "candidate_family": "calendar",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.03199999999999992,
+    "features": {
+      "semantic_max_sim": 0.679624071347504,
+      "semantic_mean_sim": 0.28415974325613297,
+      "lexical_jaccard_max": 0.625,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02312953838730476,
+      "full_linear": 0.032390348551947654,
+      "full_gbr": 0.034935093747106245
+    }
+  },
+  {
+    "candidate_id": "calendar:show_events",
+    "candidate_family": "calendar",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.02399999999999991,
+    "features": {
+      "semantic_max_sim": 0.794299335092837,
+      "semantic_mean_sim": 0.20137498893490224,
+      "lexical_jaccard_max": 0.7777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.023566719075561404,
+      "full_linear": 0.024415321153273432,
+      "full_gbr": 0.016178401155351886
+    }
+  },
+  {
+    "candidate_id": "calendar:book_conference_room",
+    "candidate_family": "calendar",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.02399999999999991,
+    "features": {
+      "semantic_max_sim": 0.09825614304089914,
+      "semantic_mean_sim": 0.03949169799626556,
+      "lexical_jaccard_max": 0.15789473684210525,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.020913168241500184,
+      "full_linear": 0.020128572206480976,
+      "full_gbr": 0.01297182246193299
+    }
+  },
+  {
+    "candidate_id": "calendar:check_room_availability",
+    "candidate_family": "calendar",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.02399999999999991,
+    "features": {
+      "semantic_max_sim": 0.13073133962671366,
+      "semantic_mean_sim": 0.03418246073842158,
+      "lexical_jaccard_max": 0.3125,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.021036974617269118,
+      "full_linear": 0.018825806041794492,
+      "full_gbr": 0.015282470242709673
+    }
+  },
+  {
+    "candidate_id": "calendar:archive_old_events",
+    "candidate_family": "calendar",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.03199999999999992,
+    "features": {
+      "semantic_max_sim": 0.48503253068963326,
+      "semantic_mean_sim": 0.22630779109199098,
+      "lexical_jaccard_max": 0.3888888888888889,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.022387689963370427,
+      "full_linear": 0.0327250689564027,
+      "full_gbr": 0.03316434637363773
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.84,
+        0.72,
+        0.76,
+        0.84
+      ],
+      "treatment_losses": [
+        0.8,
+        0.84,
+        0.8,
+        0.8,
+        0.84
+      ],
+      "baseline_mean": 0.784,
+      "baseline_std": 0.047999999999999994,
+      "treatment_mean": 0.8160000000000001,
+      "treatment_std": 0.019595917942265388,
+      "delta_mean": 0.03200000000000003,
+      "delta_std": 0.029933259094191558
+    }
+  },
+  {
+    "candidate_id": "calendar:sync_calendar_provider",
+    "candidate_family": "calendar",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.02399999999999991,
+    "features": {
+      "semantic_max_sim": 0.2787506439153441,
+      "semantic_mean_sim": 0.12755170160305018,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02160127400678595,
+      "full_linear": 0.027845030321248562,
+      "full_gbr": 0.02340612056839532
+    }
+  },
+  {
+    "candidate_id": "crm:translate_text",
+    "candidate_family": "crm",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.039999999999999925,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.10526315789473684,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01749125141429821,
+      "full_linear": 0.017924493835522148,
+      "full_gbr": 0.020686948545654935
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.8,
+        0.76,
+        0.76,
+        0.8
+      ],
+      "treatment_losses": [
+        0.8,
+        0.92,
+        0.76,
+        0.76,
+        0.84
+      ],
+      "baseline_mean": 0.776,
+      "baseline_std": 0.019595917942265444,
+      "treatment_mean": 0.8160000000000001,
+      "treatment_std": 0.05986651818838307,
+      "delta_mean": 0.039999999999999994,
+      "delta_std": 0.04381780460041329
+    }
+  },
+  {
+    "candidate_id": "crm:compress_file",
+    "candidate_family": "crm",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.039999999999999925,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01749125141429821,
+      "full_linear": 0.017900854709908775,
+      "full_gbr": 0.020686948545654935
+    }
+  },
+  {
+    "candidate_id": "crm:schedule_contact",
+    "candidate_family": "crm",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.824,
+    "delta_loss": 0.04799999999999993,
+    "features": {
+      "semantic_max_sim": 0.5875901736230237,
+      "semantic_mean_sim": 0.2754979572864023,
+      "lexical_jaccard_max": 0.7333333333333333,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02100590805081682,
+      "full_linear": 0.021795168353777226,
+      "full_gbr": 0.010859630651693458
+    }
+  },
+  {
+    "candidate_id": "crm:schedule_deal",
+    "candidate_family": "crm",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.039999999999999925,
+    "features": {
+      "semantic_max_sim": 0.6896599479453487,
+      "semantic_mean_sim": 0.2246743793475439,
+      "lexical_jaccard_max": 0.6923076923076923,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02161643597625499,
+      "full_linear": 0.02206813032031589,
+      "full_gbr": 0.02217901738965499
+    }
+  },
+  {
+    "candidate_id": "crm:register_vendor",
+    "candidate_family": "crm",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.039999999999999925,
+    "features": {
+      "semantic_max_sim": 0.05174698317415129,
+      "semantic_mean_sim": 0.016045926189649503,
+      "lexical_jaccard_max": 0.2222222222222222,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01780077476236824,
+      "full_linear": 0.015357189808547651,
+      "full_gbr": 0.014744982097336724
+    }
+  },
+  {
+    "candidate_id": "crm:record_support_ticket",
+    "candidate_family": "crm",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.824,
+    "delta_loss": 0.04799999999999993,
+    "features": {
+      "semantic_max_sim": 0.24302499858137774,
+      "semantic_mean_sim": 0.09382312083503541,
+      "lexical_jaccard_max": 0.2777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.0189448996583411,
+      "full_linear": 0.01771733376340758,
+      "full_gbr": 0.018091232803143214
+    }
+  },
+  {
+    "candidate_id": "crm:search_marketing_campaigns",
+    "candidate_family": "crm",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.039999999999999925,
+    "features": {
+      "semantic_max_sim": 0.5934329924462414,
+      "semantic_mean_sim": 0.1545787715689613,
+      "lexical_jaccard_max": 0.3157894736842105,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02104085673252533,
+      "full_linear": 0.02412061295412274,
+      "full_gbr": 0.011527774213003767
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.8,
+        0.76,
+        0.76,
+        0.8
+      ],
+      "treatment_losses": [
+        0.8,
+        0.92,
+        0.76,
+        0.76,
+        0.84
+      ],
+      "baseline_mean": 0.776,
+      "baseline_std": 0.019595917942265444,
+      "treatment_mean": 0.8160000000000001,
+      "treatment_std": 0.05986651818838307,
+      "delta_mean": 0.039999999999999994,
+      "delta_std": 0.04381780460041329
+    }
+  },
+  {
+    "candidate_id": "crm:merge_duplicate_contacts",
+    "candidate_family": "crm",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.776,
+    "treatment_loss": 0.816,
+    "delta_loss": 0.039999999999999925,
+    "features": {
+      "semantic_max_sim": 0.23590729121618023,
+      "semantic_mean_sim": 0.13502009446687133,
+      "lexical_jaccard_max": 0.15,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01890232526116621,
+      "full_linear": 0.02135554344877185,
+      "full_gbr": 0.0191271351667098
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.8,
+        0.76,
+        0.76,
+        0.8
+      ],
+      "treatment_losses": [
+        0.8,
+        0.92,
+        0.76,
+        0.76,
+        0.84
+      ],
+      "baseline_mean": 0.776,
+      "baseline_std": 0.019595917942265444,
+      "treatment_mean": 0.8160000000000001,
+      "treatment_std": 0.05986651818838307,
+      "delta_mean": 0.039999999999999994,
+      "delta_std": 0.04381780460041329
+    }
+  },
+  {
+    "candidate_id": "finance:generate_qr_code",
+    "candidate_family": "finance",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.84,
+    "delta_loss": 0.05599999999999994,
+    "features": {
+      "semantic_max_sim": 0.19164394904803386,
+      "semantic_mean_sim": 0.03615681922366993,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.017517276801187094,
+      "full_linear": 0.013359459700048353,
+      "full_gbr": 0.00612868340729825
+    }
+  },
+  {
+    "candidate_id": "finance:send_fax",
+    "candidate_family": "finance",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.84,
+    "delta_loss": 0.05599999999999994,
+    "features": {
+      "semantic_max_sim": 0.027037521930147253,
+      "semantic_mean_sim": 0.004506253655024542,
+      "lexical_jaccard_max": 0.16666666666666666,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.017955852685118803,
+      "full_linear": 0.017262230178464365,
+      "full_gbr": 0.01858725239467583
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.72,
+        0.84,
+        0.76,
+        0.76,
+        0.84
+      ],
+      "treatment_losses": [
+        0.84,
+        0.88,
+        0.84,
+        0.76,
+        0.88
+      ],
+      "baseline_mean": 0.784,
+      "baseline_std": 0.047999999999999994,
+      "treatment_mean": 0.84,
+      "treatment_std": 0.04381780460041329,
+      "delta_mean": 0.05600000000000001,
+      "delta_std": 0.04079215610874227
+    }
+  },
+  {
+    "candidate_id": "finance:fetch_account_balance",
+    "candidate_family": "finance",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.848,
+    "delta_loss": 0.06399999999999995,
+    "features": {
+      "semantic_max_sim": 0.7632514772035692,
+      "semantic_mean_sim": 0.1490238211599897,
+      "lexical_jaccard_max": 0.8,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.015994290844245737,
+      "full_linear": 0.00849999293554916,
+      "full_gbr": 0.011987201794151857
+    }
+  },
+  {
+    "candidate_id": "finance:show_transactions",
+    "candidate_family": "finance",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.848,
+    "delta_loss": 0.06399999999999995,
+    "features": {
+      "semantic_max_sim": 0.8248885205825753,
+      "semantic_mean_sim": 0.18476455597293565,
+      "lexical_jaccard_max": 0.8181818181818182,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.015830065660234392,
+      "full_linear": 0.011437747361831008,
+      "full_gbr": 0.01598061309271094
+    }
+  },
+  {
+    "candidate_id": "finance:list_scheduled_payments",
+    "candidate_family": "finance",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.84,
+    "delta_loss": 0.05599999999999994,
+    "features": {
+      "semantic_max_sim": 0.3350889467440088,
+      "semantic_mean_sim": 0.0664803795409352,
+      "lexical_jaccard_max": 0.38461538461538464,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01713508323947982,
+      "full_linear": 0.012701304141893981,
+      "full_gbr": 0.004044348898209229
+    }
+  },
+  {
+    "candidate_id": "finance:flag_disputed_transaction",
+    "candidate_family": "finance",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.848,
+    "delta_loss": 0.06399999999999995,
+    "features": {
+      "semantic_max_sim": 0.4448328867699275,
+      "semantic_mean_sim": 0.08831367038323767,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01684268247271908,
+      "full_linear": 0.007749713526154637,
+      "full_gbr": 0.004044348898209229
+    }
+  },
+  {
+    "candidate_id": "finance:convert_investment_holdings",
+    "candidate_family": "finance",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.84,
+    "delta_loss": 0.05599999999999994,
+    "features": {
+      "semantic_max_sim": 0.5366007537258377,
+      "semantic_mean_sim": 0.08943345895430628,
+      "lexical_jaccard_max": 0.3125,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.016598176993368075,
+      "full_linear": 0.006236383836865079,
+      "full_gbr": 0.004638177111684704
+    }
+  },
+  {
+    "candidate_id": "finance:reconcile_statement",
+    "candidate_family": "finance",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.84,
+    "delta_loss": 0.05599999999999994,
+    "features": {
+      "semantic_max_sim": 0.1515410452334175,
+      "semantic_mean_sim": 0.025256840872236248,
+      "lexical_jaccard_max": 0.1111111111111111,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.017624126617422565,
+      "full_linear": 0.013029888073657136,
+      "full_gbr": 0.0034567853445097167
+    }
+  },
+  {
+    "candidate_id": "email:convert_currency",
+    "candidate_family": "email",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.09090909090909091,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02046335456300832,
+      "full_linear": 0.020325306437485046,
+      "full_gbr": 0.02238417144867438
+    }
+  },
+  {
+    "candidate_id": "email:compress_file",
+    "candidate_family": "email",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.1111111111111111,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02046335456300832,
+      "full_linear": 0.020266425481790053,
+      "full_gbr": 0.02238417144867438
+    }
+  },
+  {
+    "candidate_id": "email:lookup_inbox",
+    "candidate_family": "email",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.7887834533577048,
+      "semantic_mean_sim": 0.13146390889295081,
+      "lexical_jaccard_max": 0.7,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024235982807232086,
+      "full_linear": 0.018653808104546296,
+      "full_gbr": 0.018034739112914352
+    }
+  },
+  {
+    "candidate_id": "email:remove_email",
+    "candidate_family": "email",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.43656299804286225,
+      "semantic_mean_sim": 0.2126749526469467,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02255136729931583,
+      "full_linear": 0.029435804266612433,
+      "full_gbr": 0.032172834146079
+    }
+  },
+  {
+    "candidate_id": "email:post_announcement",
+    "candidate_family": "email",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.2189891239065087,
+      "semantic_mean_sim": 0.057925101309303874,
+      "lexical_jaccard_max": 0.3157894736842105,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02151074539063114,
+      "full_linear": 0.02044033268361975,
+      "full_gbr": 0.023937705918243315
+    }
+  },
+  {
+    "candidate_id": "email:compose_template",
+    "candidate_family": "email",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.2427903210781521,
+      "semantic_mean_sim": 0.09659834385677137,
+      "lexical_jaccard_max": 0.35294117647058826,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.021624582804833793,
+      "full_linear": 0.023259693741428247,
+      "full_gbr": 0.027844923151401354
+    }
+  },
+  {
+    "candidate_id": "email:toggle_notification_mute",
+    "candidate_family": "email",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.44518085113293854,
+      "semantic_mean_sim": 0.13117783129254537,
+      "lexical_jaccard_max": 0.3333333333333333,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.022592585146665182,
+      "full_linear": 0.024500088575228122,
+      "full_gbr": 0.022947036615314588
+    }
+  },
+  {
+    "candidate_id": "email:unsubscribe_from_sender",
+    "candidate_family": "email",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.72,
+    "treatment_loss": 0.744,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.07968726267015809,
+      "semantic_mean_sim": 0.013281210445026349,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.020844486312887947,
+      "full_linear": 0.020381471988490378,
+      "full_gbr": 0.006187246248098581
+    }
+  },
+  {
+    "candidate_id": "travel:check_weather",
+    "candidate_family": "travel",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.792,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.1374883228685089,
+      "semantic_mean_sim": 0.029571588612291134,
+      "lexical_jaccard_max": 0.1875,
+      "schema_jaccard_max": 0.25,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02326895410384887,
+      "full_linear": 0.022736743965474628,
+      "full_gbr": 0.015638979885313393
+    }
+  },
+  {
+    "candidate_id": "travel:convert_currency",
+    "candidate_family": "travel",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.05,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02276775293189611,
+      "full_linear": 0.022825744670417286,
+      "full_gbr": 0.023415882806804674
+    }
+  },
+  {
+    "candidate_id": "travel:lookup_flights",
+    "candidate_family": "travel",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.7877443230363711,
+      "semantic_mean_sim": 0.1599828827961692,
+      "lexical_jaccard_max": 0.7692307692307693,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.025639403190387933,
+      "full_linear": 0.022637689131651453,
+      "full_gbr": 0.02362425756895634
+    }
+  },
+  {
+    "candidate_id": "travel:lookup_hotels",
+    "candidate_family": "travel",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.7979003978355954,
+      "semantic_mean_sim": 0.16161218784320117,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.025676426237040986,
+      "full_linear": 0.022769271541716304,
+      "full_gbr": 0.027771467146670722
+    }
+  },
+  {
+    "candidate_id": "travel:search_train_routes",
+    "candidate_family": "travel",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.4053478702329336,
+      "semantic_mean_sim": 0.12021961144966564,
+      "lexical_jaccard_max": 0.7692307692307693,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02424541171317021,
+      "full_linear": 0.022720532986030953,
+      "full_gbr": 0.01801483615762141
+    }
+  },
+  {
+    "candidate_id": "travel:check_in_passenger",
+    "candidate_family": "travel",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3565226221924496,
+      "semantic_mean_sim": 0.07133038066181285,
+      "lexical_jaccard_max": 0.21428571428571427,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024067423713693494,
+      "full_linear": 0.022762408897903208,
+      "full_gbr": 0.018112962724138454
+    }
+  },
+  {
+    "candidate_id": "travel:dispute_charge",
+    "candidate_family": "travel",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.8,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.3877479443040555,
+      "semantic_mean_sim": 0.12783515021661873,
+      "lexical_jaccard_max": 0.2857142857142857,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024181252784485976,
+      "full_linear": 0.02710034015639712,
+      "full_gbr": 0.029059789683892983
+    }
+  },
+  {
+    "candidate_id": "travel:request_visa_check",
+    "candidate_family": "travel",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.07420517770506632,
+      "semantic_mean_sim": 0.012367529617511053,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.2,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02303826115582951,
+      "full_linear": 0.02245938157231209,
+      "full_gbr": 0.009470227548987553
+    }
+  },
+  {
+    "candidate_id": "legal:compress_file",
+    "candidate_family": "legal",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8,
+    "delta_loss": -0.007999999999999896,
+    "features": {
+      "semantic_max_sim": 0.13355572120993434,
+      "semantic_mean_sim": 0.02225928686832239,
+      "lexical_jaccard_max": 0.1111111111111111,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.023972987185868856,
+      "full_linear": 0.025407096142599447,
+      "full_gbr": 0.04092937963912976
+    }
+  },
+  {
+    "candidate_id": "legal:translate_text",
+    "candidate_family": "legal",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.16155163222724858,
+      "semantic_mean_sim": 0.026925272037874762,
+      "lexical_jaccard_max": 0.15789473684210525,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024261479029497664,
+      "full_linear": 0.02506442840327818,
+      "full_gbr": 0.02294497859242498
+    }
+  },
+  {
+    "candidate_id": "legal:lookup_case_law",
+    "candidate_family": "legal",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.792,
+    "delta_loss": -0.015999999999999903,
+    "features": {
+      "semantic_max_sim": 0.8771324587442705,
+      "semantic_mean_sim": 0.17701598945235017,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.031635385589625226,
+      "full_linear": 0.031028236309031593,
+      "full_gbr": 0.0252530214075011
+    }
+  },
+  {
+    "candidate_id": "legal:compose_clause",
+    "candidate_family": "legal",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.6229607680171938,
+      "semantic_mean_sim": 0.13624177287708944,
+      "lexical_jaccard_max": 0.7777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02901620096617232,
+      "full_linear": 0.02368490051297798,
+      "full_gbr": 0.026450144347840446
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.8,
+        0.76,
+        0.8,
+        0.8,
+        0.88
+      ],
+      "treatment_losses": [
+        0.76,
+        0.84,
+        0.72,
+        0.8,
+        0.92
+      ],
+      "baseline_mean": 0.808,
+      "baseline_std": 0.039191835884530846,
+      "treatment_mean": 0.808,
+      "treatment_std": 0.06881860213634103,
+      "delta_mean": -2.2204460492503132e-17,
+      "delta_std": 0.056568542494923824
+    }
+  },
+  {
+    "candidate_id": "legal:search_regulatory_filings",
+    "candidate_family": "legal",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.30272145215607704,
+      "semantic_mean_sim": 0.05045357535934617,
+      "lexical_jaccard_max": 0.26666666666666666,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.025716203670922155,
+      "full_linear": 0.025729424418896793,
+      "full_gbr": 0.01770927752396886
+    }
+  },
+  {
+    "candidate_id": "legal:archive_document",
+    "candidate_family": "legal",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3696158548489276,
+      "semantic_mean_sim": 0.08421060220369397,
+      "lexical_jaccard_max": 0.16666666666666666,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.026405536107697403,
+      "full_linear": 0.030751778955081074,
+      "full_gbr": 0.010395390038955963
+    }
+  },
+  {
+    "candidate_id": "legal:translate_contract",
+    "candidate_family": "legal",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5976211809977394,
+      "semantic_mean_sim": 0.15418870767567827,
+      "lexical_jaccard_max": 0.3333333333333333,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.028755081970204877,
+      "full_linear": 0.03452342918642963,
+      "full_gbr": 0.03338825124073946
+    }
+  },
+  {
+    "candidate_id": "legal:calculate_statute_of_limitations",
+    "candidate_family": "legal",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.8079999999999999,
+    "treatment_loss": 0.8079999999999999,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3166604651367837,
+      "semantic_mean_sim": 0.09010308718494293,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.25,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02585984220265927,
+      "full_linear": 0.031330980395403565,
+      "full_gbr": 0.04155296422875348
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.8,
+        0.76,
+        0.8,
+        0.8,
+        0.88
+      ],
+      "treatment_losses": [
+        0.76,
+        0.84,
+        0.72,
+        0.8,
+        0.92
+      ],
+      "baseline_mean": 0.808,
+      "baseline_std": 0.039191835884530846,
+      "treatment_mean": 0.808,
+      "treatment_std": 0.06881860213634103,
+      "delta_mean": -2.2204460492503132e-17,
+      "delta_std": 0.056568542494923824
+    }
+  },
+  {
+    "candidate_id": "developer_tools:send_fax",
+    "candidate_family": "developer_tools",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.16666666666666666,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02405089031274777,
+      "full_linear": 0.024143022019533847,
+      "full_gbr": 0.03654943644241936
+    }
+  },
+  {
+    "candidate_id": "developer_tools:generate_qr_code",
+    "candidate_family": "developer_tools",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0699183024622208,
+      "semantic_mean_sim": 0.011653050410370134,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024271661200838346,
+      "full_linear": 0.023769972171665134,
+      "full_gbr": 0.014457210325943833
+    }
+  },
+  {
+    "candidate_id": "developer_tools:execute_tests",
+    "candidate_family": "developer_tools",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.6063665026912947,
+      "semantic_mean_sim": 0.10106108378188244,
+      "lexical_jaccard_max": 0.7777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.025965525917350244,
+      "full_linear": 0.02466649987871484,
+      "full_gbr": 0.018619111024971456
+    }
+  },
+  {
+    "candidate_id": "developer_tools:release_service",
+    "candidate_family": "developer_tools",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5896818516528461,
+      "semantic_mean_sim": 0.13415602395419987,
+      "lexical_jaccard_max": 0.7142857142857143,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.025912843213429765,
+      "full_linear": 0.025778292476944464,
+      "full_gbr": 0.031019184883577355
+    }
+  },
+  {
+    "candidate_id": "developer_tools:create_release_notes",
+    "candidate_family": "developer_tools",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.784,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.2820459813788526,
+      "semantic_mean_sim": 0.058048889839357055,
+      "lexical_jaccard_max": 0.42857142857142855,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02494146602180524,
+      "full_linear": 0.024610915839448515,
+      "full_gbr": 0.02168116935155619
+    }
+  },
+  {
+    "candidate_id": "developer_tools:get_last_commit_author",
+    "candidate_family": "developer_tools",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.792,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.280883548304114,
+      "semantic_mean_sim": 0.05841045347929783,
+      "lexical_jaccard_max": 0.17647058823529413,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02493779557539538,
+      "full_linear": 0.023677348978202912,
+      "full_gbr": 0.02050659553260643
+    }
+  },
+  {
+    "candidate_id": "developer_tools:get_deployment_health",
+    "candidate_family": "developer_tools",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.792,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.5229960576615875,
+      "semantic_mean_sim": 0.10525556106373234,
+      "lexical_jaccard_max": 0.3333333333333333,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02570227914874255,
+      "full_linear": 0.023862053638394894,
+      "full_gbr": 0.033802314622010075
+    }
+  },
+  {
+    "candidate_id": "developer_tools:provision_dev_environment",
+    "candidate_family": "developer_tools",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.784,
+    "treatment_loss": 0.792,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.15828741669809188,
+      "semantic_mean_sim": 0.046758815504820916,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02455069154257429,
+      "full_linear": 0.024248949557771626,
+      "full_gbr": 0.021990922113324596
+    }
+  },
+  {
+    "candidate_id": "project_management:translate_text",
+    "candidate_family": "project_management",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.776,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.022138699645057536,
+      "full_linear": 0.021629582209573447,
+      "full_gbr": 0.02466485653612103
+    }
+  },
+  {
+    "candidate_id": "project_management:send_fax",
+    "candidate_family": "project_management",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.776,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.022138699645057536,
+      "full_linear": 0.021558164794280948,
+      "full_gbr": 0.01675392194681746
+    }
+  },
+  {
+    "candidate_id": "project_management:schedule_ticket",
+    "candidate_family": "project_management",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.768,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.6387976736162057,
+      "semantic_mean_sim": 0.2652348904740195,
+      "lexical_jaccard_max": 0.6923076923076923,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02400618782651867,
+      "full_linear": 0.03354059622765811,
+      "full_gbr": 0.031204794804554552
+    }
+  },
+  {
+    "candidate_id": "project_management:lookup_tickets",
+    "candidate_family": "project_management",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.792,
+    "delta_loss": 0.03200000000000003,
+    "features": {
+      "semantic_max_sim": 0.7973897580450628,
+      "semantic_mean_sim": 0.15489880367294823,
+      "lexical_jaccard_max": 0.6666666666666666,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024469822644829105,
+      "full_linear": 0.02041442487384946,
+      "full_gbr": 0.01880587990586175
+    }
+  },
+  {
+    "candidate_id": "project_management:update_deployment_status",
+    "candidate_family": "project_management",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.792,
+    "delta_loss": 0.03200000000000003,
+    "features": {
+      "semantic_max_sim": 0.5097772639832472,
+      "semantic_mean_sim": 0.1293095913310611,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02362900409509891,
+      "full_linear": 0.02175976098006379,
+      "full_gbr": 0.015463056592202434
+    }
+  },
+  {
+    "candidate_id": "project_management:reassign_reviewer",
+    "candidate_family": "project_management",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.776,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.0800789532791465,
+      "semantic_mean_sim": 0.038001143165118094,
+      "lexical_jaccard_max": 0.4,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.022372805849587066,
+      "full_linear": 0.020687435137885464,
+      "full_gbr": 0.020468133260014315
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.76,
+        0.72,
+        0.76,
+        0.8
+      ],
+      "treatment_losses": [
+        0.8,
+        0.76,
+        0.72,
+        0.8,
+        0.8
+      ],
+      "baseline_mean": 0.76,
+      "baseline_std": 0.025298221281347056,
+      "treatment_mean": 0.776,
+      "treatment_std": 0.03200000000000003,
+      "delta_mean": 0.016000000000000014,
+      "delta_std": 0.019595917942265444
+    }
+  },
+  {
+    "candidate_id": "project_management:log_time_entry",
+    "candidate_family": "project_management",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.76,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.42823842352914393,
+      "semantic_mean_sim": 0.08533320570682901,
+      "lexical_jaccard_max": 0.3157894736842105,
+      "schema_jaccard_max": 0.3333333333333333,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.023390629994554563,
+      "full_linear": 0.022082633360430978,
+      "full_gbr": 0.015175509537065777
+    }
+  },
+  {
+    "candidate_id": "project_management:generate_burndown_chart",
+    "candidate_family": "project_management",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.76,
+    "treatment_loss": 0.776,
+    "delta_loss": 0.016000000000000014,
+    "features": {
+      "semantic_max_sim": 0.18705376656743028,
+      "semantic_mean_sim": 0.03117562776123838,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.022685540550699813,
+      "full_linear": 0.021871935290189392,
+      "full_gbr": 0.02443684254789501
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.76,
+        0.76,
+        0.72,
+        0.76,
+        0.8
+      ],
+      "treatment_losses": [
+        0.8,
+        0.76,
+        0.72,
+        0.8,
+        0.8
+      ],
+      "baseline_mean": 0.76,
+      "baseline_std": 0.025298221281347056,
+      "treatment_mean": 0.776,
+      "treatment_std": 0.03200000000000003,
+      "delta_mean": 0.016000000000000014,
+      "delta_std": 0.019595917942265444
+    }
+  }
+]

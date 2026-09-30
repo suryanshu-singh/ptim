@@ -1,0 +1,1576 @@
+[
+  {
+    "candidate_id": "calendar:convert_currency",
+    "candidate_family": "calendar",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.05263157894736842,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.007841388058901054,
+      "full_linear": -0.006229091762033408,
+      "full_gbr": 0.00030102724149609096
+    }
+  },
+  {
+    "candidate_id": "calendar:check_weather",
+    "candidate_family": "calendar",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.04124746069427402,
+      "semantic_mean_sim": 0.006874576782379003,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.005679581157392581,
+      "full_linear": 0.002044651909007565,
+      "full_gbr": 0.00030102724149609096
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996
+      ],
+      "treatment_losses": [
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996
+      ],
+      "baseline_mean": 0.19999999999999996,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.19999999999999996,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "calendar:schedule_event",
+    "candidate_family": "calendar",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.4,
+    "delta_loss": 0.20000000000000007,
+    "features": {
+      "semantic_max_sim": 0.679624071347504,
+      "semantic_mean_sim": 0.28415974325613297,
+      "lexical_jaccard_max": 0.625,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.027778162408948176,
+      "full_linear": -0.00908150014028898,
+      "full_gbr": 0.0011174275706606076
+    }
+  },
+  {
+    "candidate_id": "calendar:show_events",
+    "candidate_family": "calendar",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.384,
+    "delta_loss": 0.18400000000000005,
+    "features": {
+      "semantic_max_sim": 0.794299335092837,
+      "semantic_mean_sim": 0.20137498893490224,
+      "lexical_jaccard_max": 0.7777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.033788369399250964,
+      "full_linear": 0.036277490791305475,
+      "full_gbr": 0.13194901633839143
+    }
+  },
+  {
+    "candidate_id": "calendar:book_conference_room",
+    "candidate_family": "calendar",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.20799999999999996,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.09825614304089914,
+      "semantic_mean_sim": 0.03949169799626556,
+      "lexical_jaccard_max": 0.15789473684210525,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.0026917181261067093,
+      "full_linear": -0.0131163582912348,
+      "full_gbr": 0.00030102724149609096
+    }
+  },
+  {
+    "candidate_id": "calendar:check_room_availability",
+    "candidate_family": "calendar",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.13073133962671366,
+      "semantic_mean_sim": 0.03418246073842158,
+      "lexical_jaccard_max": 0.3125,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.0009896714321921884,
+      "full_linear": 0.005959211258206627,
+      "full_gbr": 0.00030102724149609096
+    }
+  },
+  {
+    "candidate_id": "calendar:archive_old_events",
+    "candidate_family": "calendar",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.16799999999999993,
+    "delta_loss": -0.03200000000000003,
+    "features": {
+      "semantic_max_sim": 0.48503253068963326,
+      "semantic_mean_sim": 0.22630779109199098,
+      "lexical_jaccard_max": 0.3888888888888889,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.017579490090975668,
+      "full_linear": -0.014877186062659834,
+      "full_gbr": 0.0011174275706606076
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996
+      ],
+      "treatment_losses": [
+        0.15999999999999992,
+        0.15999999999999992,
+        0.15999999999999992,
+        0.19999999999999996,
+        0.15999999999999992
+      ],
+      "baseline_mean": 0.19999999999999996,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.16799999999999993,
+      "treatment_std": 0.016000000000000014,
+      "delta_mean": -0.03200000000000003,
+      "delta_std": 0.016000000000000014
+    }
+  },
+  {
+    "candidate_id": "calendar:sync_calendar_provider",
+    "candidate_family": "calendar",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19200000000000006,
+    "delta_loss": -0.007999999999999896,
+    "features": {
+      "semantic_max_sim": 0.2787506439153441,
+      "semantic_mean_sim": 0.12755170160305018,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.006768118942817853,
+      "full_linear": -0.022982407507651972,
+      "full_gbr": 0.00030102724149609096
+    }
+  },
+  {
+    "candidate_id": "crm:translate_text",
+    "candidate_family": "crm",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.10526315789473684,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.013578600111534622,
+      "full_linear": -0.009771140095903998,
+      "full_gbr": 0.00014222345826649682
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.0,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "crm:compress_file",
+    "candidate_family": "crm",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.013578600111534622,
+      "full_linear": -0.008672521326708987,
+      "full_gbr": 0.00014222345826649682
+    }
+  },
+  {
+    "candidate_id": "crm:schedule_contact",
+    "candidate_family": "crm",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5875901736230237,
+      "semantic_mean_sim": 0.2754979572864023,
+      "lexical_jaccard_max": 0.7333333333333333,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.03736273343718398,
+      "full_linear": 0.058891913803049464,
+      "full_gbr": 0.1713359077252708
+    }
+  },
+  {
+    "candidate_id": "crm:schedule_deal",
+    "candidate_family": "crm",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.6896599479453487,
+      "semantic_mean_sim": 0.2246743793475439,
+      "lexical_jaccard_max": 0.6923076923076923,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.04621170786256612,
+      "full_linear": 0.053365453455505446,
+      "full_gbr": 0.005807417643876861
+    }
+  },
+  {
+    "candidate_id": "crm:register_vendor",
+    "candidate_family": "crm",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.05174698317415129,
+      "semantic_mean_sim": 0.016045926189649503,
+      "lexical_jaccard_max": 0.2222222222222222,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.009092377488442273,
+      "full_linear": -0.0033990036117994456,
+      "full_gbr": 0.00014222345826649682
+    }
+  },
+  {
+    "candidate_id": "crm:record_support_ticket",
+    "candidate_family": "crm",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.24302499858137774,
+      "semantic_mean_sim": 0.09382312083503541,
+      "lexical_jaccard_max": 0.2777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.007490536285142756,
+      "full_linear": 0.006822376146498475,
+      "full_gbr": 0.00014222345826649682
+    }
+  },
+  {
+    "candidate_id": "crm:search_marketing_campaigns",
+    "candidate_family": "crm",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5934329924462414,
+      "semantic_mean_sim": 0.1545787715689613,
+      "lexical_jaccard_max": 0.3157894736842105,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.03786927863807295,
+      "full_linear": 0.02090096808190062,
+      "full_gbr": 0.00014222345826649682
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.0,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "crm:merge_duplicate_contacts",
+    "candidate_family": "crm",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.23590729121618023,
+      "semantic_mean_sim": 0.13502009446687133,
+      "lexical_jaccard_max": 0.15,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.006873464180691059,
+      "full_linear": 0.002720409326602252,
+      "full_gbr": 0.00014222345826649682
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.0,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "finance:generate_qr_code",
+    "candidate_family": "finance",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.19164394904803386,
+      "semantic_mean_sim": 0.03615681922366993,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.0036671227731129,
+      "full_linear": -0.003855201562820907,
+      "full_gbr": -9.102810431765094e-05
+    }
+  },
+  {
+    "candidate_id": "finance:send_fax",
+    "candidate_family": "finance",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.027037521930147253,
+      "semantic_mean_sim": 0.004506253655024542,
+      "lexical_jaccard_max": 0.16666666666666666,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.007264928438260935,
+      "full_linear": -0.0008316626132746363,
+      "full_gbr": -9.102810431765094e-05
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996
+      ],
+      "treatment_losses": [
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996,
+        0.19999999999999996
+      ],
+      "baseline_mean": 0.19999999999999996,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.19999999999999996,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "finance:fetch_account_balance",
+    "candidate_family": "finance",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.7632514772035692,
+      "semantic_mean_sim": 0.1490238211599897,
+      "lexical_jaccard_max": 0.8,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.041629448303256836,
+      "full_linear": 0.05184547962723993,
+      "full_gbr": 0.1649358468778775
+    }
+  },
+  {
+    "candidate_id": "finance:show_transactions",
+    "candidate_family": "finance",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.4,
+    "delta_loss": 0.20000000000000007,
+    "features": {
+      "semantic_max_sim": 0.8248885205825753,
+      "semantic_mean_sim": 0.18476455597293565,
+      "lexical_jaccard_max": 0.8181818181818182,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.04572296595341757,
+      "full_linear": 0.05259226398677708,
+      "full_gbr": 0.17758918849024913
+    }
+  },
+  {
+    "candidate_id": "finance:list_scheduled_payments",
+    "candidate_family": "finance",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3350889467440088,
+      "semantic_mean_sim": 0.0664803795409352,
+      "lexical_jaccard_max": 0.38461538461538464,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.01319377424283185,
+      "full_linear": 0.014952088720933131,
+      "full_gbr": -4.124836572679502e-05
+    }
+  },
+  {
+    "candidate_id": "finance:flag_disputed_transaction",
+    "candidate_family": "finance",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.4448328867699275,
+      "semantic_mean_sim": 0.08831367038323767,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.020482228244947276,
+      "full_linear": -0.005812031978910653,
+      "full_gbr": -4.124836572679502e-05
+    }
+  },
+  {
+    "candidate_id": "finance:convert_investment_holdings",
+    "candidate_family": "finance",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5366007537258377,
+      "semantic_mean_sim": 0.08943345895430628,
+      "lexical_jaccard_max": 0.3125,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.026576832439242064,
+      "full_linear": 0.014967410286364814,
+      "full_gbr": -9.102810431765094e-05
+    }
+  },
+  {
+    "candidate_id": "finance:reconcile_statement",
+    "candidate_family": "finance",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.19999999999999996,
+    "treatment_loss": 0.19999999999999996,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.1515410452334175,
+      "semantic_mean_sim": 0.025256840872236248,
+      "lexical_jaccard_max": 0.1111111111111111,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.0010037577642107252,
+      "full_linear": -0.0064736276827511915,
+      "full_gbr": -4.124836572679502e-05
+    }
+  },
+  {
+    "candidate_id": "email:convert_currency",
+    "candidate_family": "email",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.09090909090909091,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.013345896958568818,
+      "full_linear": -0.010097000916884943,
+      "full_gbr": 8.617731793789156e-05
+    }
+  },
+  {
+    "candidate_id": "email:compress_file",
+    "candidate_family": "email",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.1111111111111111,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.013345896958568818,
+      "full_linear": -0.008122081399782079,
+      "full_gbr": 8.617731793789156e-05
+    }
+  },
+  {
+    "candidate_id": "email:lookup_inbox",
+    "candidate_family": "email",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.7887834533577048,
+      "semantic_mean_sim": 0.13146390889295081,
+      "lexical_jaccard_max": 0.7,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.053856707336486495,
+      "full_linear": 0.05497246313890104,
+      "full_gbr": 0.009353665764215735
+    }
+  },
+  {
+    "candidate_id": "email:remove_email",
+    "candidate_family": "email",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.43656299804286225,
+      "semantic_mean_sim": 0.2126749526469467,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.023848304165263498,
+      "full_linear": 0.050401640875936946,
+      "full_gbr": -0.002921954497841695
+    }
+  },
+  {
+    "candidate_id": "email:post_announcement",
+    "candidate_family": "email",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.2189891239065087,
+      "semantic_mean_sim": 0.057925101309303874,
+      "lexical_jaccard_max": 0.3157894736842105,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.005311491677265186,
+      "full_linear": 0.010182643384950247,
+      "full_gbr": 8.617731793789156e-05
+    }
+  },
+  {
+    "candidate_id": "email:compose_template",
+    "candidate_family": "email",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.2427903210781521,
+      "semantic_mean_sim": 0.09659834385677137,
+      "lexical_jaccard_max": 0.35294117647058826,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.007339300993581033,
+      "full_linear": 0.012714202937843842,
+      "full_gbr": 8.617731793789156e-05
+    }
+  },
+  {
+    "candidate_id": "email:toggle_notification_mute",
+    "candidate_family": "email",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.44518085113293854,
+      "semantic_mean_sim": 0.13117783129254537,
+      "lexical_jaccard_max": 0.3333333333333333,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024582526173369798,
+      "full_linear": 0.014689584228798878,
+      "full_gbr": 8.617731793789156e-05
+    }
+  },
+  {
+    "candidate_id": "email:unsubscribe_from_sender",
+    "candidate_family": "email",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.07968726267015809,
+      "semantic_mean_sim": 0.013281210445026349,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.006556718562669778,
+      "full_linear": -0.005871230522293616,
+      "full_gbr": 8.617731793789156e-05
+    }
+  },
+  {
+    "candidate_id": "travel:check_weather",
+    "candidate_family": "travel",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.1374883228685089,
+      "semantic_mean_sim": 0.029571588612291134,
+      "lexical_jaccard_max": 0.1875,
+      "schema_jaccard_max": 0.25,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.0014078087709100701,
+      "full_linear": 0.0004543967797423498,
+      "full_gbr": 0.0001620864644734652
+    }
+  },
+  {
+    "candidate_id": "travel:convert_currency",
+    "candidate_family": "travel",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.05,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.01344045182498298,
+      "full_linear": -0.014317403507772308,
+      "full_gbr": 0.0001620864644734652
+    }
+  },
+  {
+    "candidate_id": "travel:lookup_flights",
+    "candidate_family": "travel",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.015999999999999903,
+    "delta_loss": 0.015999999999999903,
+    "features": {
+      "semantic_max_sim": 0.7877443230363711,
+      "semantic_mean_sim": 0.1599828827961692,
+      "lexical_jaccard_max": 0.7692307692307693,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.05550101214235442,
+      "full_linear": 0.06673221391390528,
+      "full_gbr": 0.15186998399524396
+    }
+  },
+  {
+    "candidate_id": "travel:lookup_hotels",
+    "candidate_family": "travel",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.008000000000000007,
+    "delta_loss": 0.008000000000000007,
+    "features": {
+      "semantic_max_sim": 0.7979003978355954,
+      "semantic_mean_sim": 0.16161218784320117,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.05638984706549481,
+      "full_linear": 0.06463983347174808,
+      "full_gbr": 0.0013659804484840467
+    }
+  },
+  {
+    "candidate_id": "travel:search_train_routes",
+    "candidate_family": "travel",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.4053478702329336,
+      "semantic_mean_sim": 0.12021961144966564,
+      "lexical_jaccard_max": 0.7692307692307693,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.02203460622708309,
+      "full_linear": 0.060030156445813096,
+      "full_gbr": 0.1503028673244203
+    }
+  },
+  {
+    "candidate_id": "travel:check_in_passenger",
+    "candidate_family": "travel",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3565226221924496,
+      "semantic_mean_sim": 0.07133038066181285,
+      "lexical_jaccard_max": 0.21428571428571427,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.017761539471736986,
+      "full_linear": -0.0003531300620114447,
+      "full_gbr": 0.0001620864644734652
+    }
+  },
+  {
+    "candidate_id": "travel:dispute_charge",
+    "candidate_family": "travel",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3877479443040555,
+      "semantic_mean_sim": 0.12783515021661873,
+      "lexical_jaccard_max": 0.2857142857142857,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.0204943035885612,
+      "full_linear": 0.010925125148216364,
+      "full_gbr": 0.0001620864644734652
+    }
+  },
+  {
+    "candidate_id": "travel:request_visa_check",
+    "candidate_family": "travel",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.07420517770506632,
+      "semantic_mean_sim": 0.012367529617511053,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.2,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.006946195458621968,
+      "full_linear": -0.006404660053095885,
+      "full_gbr": 0.0001620864644734652
+    }
+  },
+  {
+    "candidate_id": "legal:compress_file",
+    "candidate_family": "legal",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.13355572120993434,
+      "semantic_mean_sim": 0.02225928686832239,
+      "lexical_jaccard_max": 0.1111111111111111,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.0013519906846548944,
+      "full_linear": -0.0049154808082230005,
+      "full_gbr": 0.00011422402033959377
+    }
+  },
+  {
+    "candidate_id": "legal:translate_text",
+    "candidate_family": "legal",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.16155163222724858,
+      "semantic_mean_sim": 0.026925272037874762,
+      "lexical_jaccard_max": 0.15789473684210525,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.0007516327281761239,
+      "full_linear": -0.0011723355704808553,
+      "full_gbr": 0.00011422402033959377
+    }
+  },
+  {
+    "candidate_id": "legal:lookup_case_law",
+    "candidate_family": "legal",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.02400000000000002,
+    "delta_loss": 0.02400000000000002,
+    "features": {
+      "semantic_max_sim": 0.8771324587442705,
+      "semantic_mean_sim": 0.17701598945235017,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.05452064847848366,
+      "full_linear": 0.05287891868589869,
+      "full_gbr": 0.042495730362105584
+    }
+  },
+  {
+    "candidate_id": "legal:compose_clause",
+    "candidate_family": "legal",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.15200000000000002,
+    "delta_loss": 0.15200000000000002,
+    "features": {
+      "semantic_max_sim": 0.6229607680171938,
+      "semantic_mean_sim": 0.13624177287708944,
+      "lexical_jaccard_max": 0.7777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.035422090865493465,
+      "full_linear": 0.04691864062683807,
+      "full_gbr": 0.1289016603716529
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.15999999999999992,
+        0.11999999999999988,
+        0.15999999999999992,
+        0.15999999999999992,
+        0.15999999999999992
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.1519999999999999,
+      "treatment_std": 0.016000000000000014,
+      "delta_mean": 0.1519999999999999,
+      "delta_std": 0.016000000000000014
+    }
+  },
+  {
+    "candidate_id": "legal:search_regulatory_filings",
+    "candidate_family": "legal",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.30272145215607704,
+      "semantic_mean_sim": 0.05045357535934617,
+      "lexical_jaccard_max": 0.26666666666666666,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.011359186745752496,
+      "full_linear": 0.006546356749105829,
+      "full_gbr": 0.00011422402033959377
+    }
+  },
+  {
+    "candidate_id": "legal:archive_document",
+    "candidate_family": "legal",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3696158548489276,
+      "semantic_mean_sim": 0.08421060220369397,
+      "lexical_jaccard_max": 0.16666666666666666,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.016385657633054475,
+      "full_linear": 0.0016879812611947098,
+      "full_gbr": 0.00011422402033959377
+    }
+  },
+  {
+    "candidate_id": "legal:translate_contract",
+    "candidate_family": "legal",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5976211809977394,
+      "semantic_mean_sim": 0.15418870767567827,
+      "lexical_jaccard_max": 0.3333333333333333,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.03351806464921401,
+      "full_linear": 0.019570925470552128,
+      "full_gbr": 0.0003143318637753611
+    }
+  },
+  {
+    "candidate_id": "legal:calculate_statute_of_limitations",
+    "candidate_family": "legal",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.3166604651367837,
+      "semantic_mean_sim": 0.09010308718494293,
+      "lexical_jaccard_max": 0.125,
+      "schema_jaccard_max": 0.25,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.012406569488176393,
+      "full_linear": -0.0004682766429420799,
+      "full_gbr": 0.00011422402033959377
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.0,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "developer_tools:send_fax",
+    "candidate_family": "developer_tools",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.16666666666666666,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.01159357977487678,
+      "full_linear": -0.0060793068308899415,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "developer_tools:generate_qr_code",
+    "candidate_family": "developer_tools",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0699183024622208,
+      "semantic_mean_sim": 0.011653050410370134,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.006534669201037668,
+      "full_linear": -0.007431457904407178,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "developer_tools:execute_tests",
+    "candidate_family": "developer_tools",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.17599999999999993,
+    "delta_loss": 0.17599999999999993,
+    "features": {
+      "semantic_max_sim": 0.6063665026912947,
+      "semantic_mean_sim": 0.10106108378188244,
+      "lexical_jaccard_max": 0.7777777777777778,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.03227982395577494,
+      "full_linear": 0.043865774351004055,
+      "full_gbr": 0.11431498530562043
+    }
+  },
+  {
+    "candidate_id": "developer_tools:release_service",
+    "candidate_family": "developer_tools",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5896818516528461,
+      "semantic_mean_sim": 0.13415602395419987,
+      "lexical_jaccard_max": 0.7142857142857143,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.03107261275946721,
+      "full_linear": 0.04035028579181851,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "developer_tools:create_release_notes",
+    "candidate_family": "developer_tools",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.2820459813788526,
+      "semantic_mean_sim": 0.058048889839357055,
+      "lexical_jaccard_max": 0.42857142857142855,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.008813743447498065,
+      "full_linear": 0.01557404008449111,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "developer_tools:get_last_commit_author",
+    "candidate_family": "developer_tools",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.280883548304114,
+      "semantic_mean_sim": 0.05841045347929783,
+      "lexical_jaccard_max": 0.17647058823529413,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.008729636071230555,
+      "full_linear": 0.00035204582859824085,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "developer_tools:get_deployment_health",
+    "candidate_family": "developer_tools",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5229960576615875,
+      "semantic_mean_sim": 0.10525556106373234,
+      "lexical_jaccard_max": 0.3333333333333333,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.026247589032246138,
+      "full_linear": 0.015496157320449459,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "developer_tools:provision_dev_environment",
+    "candidate_family": "developer_tools",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.15828741669809188,
+      "semantic_mean_sim": 0.046758815504820916,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.5,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.00014075758325773902,
+      "full_linear": -0.004477049743131263,
+      "full_gbr": -5.68860572367998e-06
+    }
+  },
+  {
+    "candidate_id": "project_management:translate_text",
+    "candidate_family": "project_management",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.11764705882352941,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.01409714190857183,
+      "full_linear": -0.007290751035834042,
+      "full_gbr": 0.0002236732776972637
+    }
+  },
+  {
+    "candidate_id": "project_management:send_fax",
+    "candidate_family": "project_management",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0,
+      "semantic_mean_sim": 0.0,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.01409714190857183,
+      "full_linear": -0.00568975526694164,
+      "full_gbr": 0.0002236732776972637
+    }
+  },
+  {
+    "candidate_id": "project_management:schedule_ticket",
+    "candidate_family": "project_management",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.6387976736162057,
+      "semantic_mean_sim": 0.2652348904740195,
+      "lexical_jaccard_max": 0.6923076923076923,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.04293892368792074,
+      "full_linear": 0.048416035789605724,
+      "full_gbr": 0.02802366401464432
+    }
+  },
+  {
+    "candidate_id": "project_management:lookup_tickets",
+    "candidate_family": "project_management",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.7973897580450628,
+      "semantic_mean_sim": 0.15489880367294823,
+      "lexical_jaccard_max": 0.6666666666666666,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.05709907001306746,
+      "full_linear": 0.052937569614646116,
+      "full_gbr": 0.00747119584066619
+    }
+  },
+  {
+    "candidate_id": "project_management:update_deployment_status",
+    "candidate_family": "project_management",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.5097772639832472,
+      "semantic_mean_sim": 0.1293095913310611,
+      "lexical_jaccard_max": 0.75,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.031419131348268306,
+      "full_linear": 0.057293893215908165,
+      "full_gbr": 0.0018750415367979995
+    }
+  },
+  {
+    "candidate_id": "project_management:reassign_reviewer",
+    "candidate_family": "project_management",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.0800789532791465,
+      "semantic_mean_sim": 0.038001143165118094,
+      "lexical_jaccard_max": 0.4,
+      "schema_jaccard_max": 1.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": -0.006947165287223041,
+      "full_linear": 0.017441950935403624,
+      "full_gbr": 0.0002236732776972637
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.0,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  },
+  {
+    "candidate_id": "project_management:log_time_entry",
+    "candidate_family": "project_management",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.42823842352914393,
+      "semantic_mean_sim": 0.08533320570682901,
+      "lexical_jaccard_max": 0.3157894736842105,
+      "schema_jaccard_max": 0.3333333333333333,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.024138806380152783,
+      "full_linear": 0.01592323748804542,
+      "full_gbr": 0.0002236732776972637
+    }
+  },
+  {
+    "candidate_id": "project_management:generate_burndown_chart",
+    "candidate_family": "project_management",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_loss": 0.0,
+    "treatment_loss": 0.0,
+    "delta_loss": 0.0,
+    "features": {
+      "semantic_max_sim": 0.18705376656743028,
+      "semantic_mean_sim": 0.03117562776123838,
+      "lexical_jaccard_max": 0.13333333333333333,
+      "schema_jaccard_max": 0.0,
+      "catalog_size": 6.0
+    },
+    "predictions": {
+      "cheap_linear": 0.0026042509434329245,
+      "full_linear": -0.003557892003196325,
+      "full_gbr": 0.0002236732776972637
+    },
+    "repeatability": {
+      "n_repeats": 5,
+      "baseline_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "treatment_losses": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baseline_mean": 0.0,
+      "baseline_std": 0.0,
+      "treatment_mean": 0.0,
+      "treatment_std": 0.0,
+      "delta_mean": 0.0,
+      "delta_std": 0.0
+    }
+  }
+]

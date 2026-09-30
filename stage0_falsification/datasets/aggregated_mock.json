@@ -1,0 +1,642 @@
+[
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "convert_currency",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": -0.023999999999999994
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "check_weather",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": -0.023999999999999994
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "schedule_event",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.032
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "show_events",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": -0.023999999999999994
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "book_conference_room",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": -0.023999999999999994
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "check_room_availability",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": -0.023999999999999994
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "archive_old_events",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.032
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "calendar",
+    "candidate_name": "sync_calendar_provider",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": -0.023999999999999994
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "translate_text",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.04000000000000001
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "compress_file",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.04000000000000001
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "schedule_contact",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.17600000000000002,
+    "delta_accuracy": -0.048000000000000015
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "schedule_deal",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.04000000000000001
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "register_vendor",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.04000000000000001
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "record_support_ticket",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.17600000000000002,
+    "delta_accuracy": -0.048000000000000015
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "search_marketing_campaigns",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.04000000000000001
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "crm",
+    "candidate_name": "merge_duplicate_contacts",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.22400000000000003,
+    "post_addition_accuracy": 0.18400000000000002,
+    "delta_accuracy": -0.04000000000000001
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "generate_qr_code",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.16,
+    "delta_accuracy": -0.05600000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "send_fax",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.16,
+    "delta_accuracy": -0.05600000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "fetch_account_balance",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.15200000000000002,
+    "delta_accuracy": -0.064
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "show_transactions",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.15200000000000002,
+    "delta_accuracy": -0.064
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "list_scheduled_payments",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.16,
+    "delta_accuracy": -0.05600000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "flag_disputed_transaction",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.15200000000000002,
+    "delta_accuracy": -0.064
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "convert_investment_holdings",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.16,
+    "delta_accuracy": -0.05600000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "finance",
+    "candidate_name": "reconcile_statement",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.16,
+    "delta_accuracy": -0.05600000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "convert_currency",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "compress_file",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "lookup_inbox",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "remove_email",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "post_announcement",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "compose_template",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "toggle_notification_mute",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "email",
+    "candidate_name": "unsubscribe_from_sender",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.28,
+    "post_addition_accuracy": 0.256,
+    "delta_accuracy": -0.02400000000000002
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "check_weather",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": -0.008000000000000007
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "convert_currency",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.2,
+    "delta_accuracy": -0.016000000000000014
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "lookup_flights",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.2,
+    "delta_accuracy": -0.016000000000000014
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "lookup_hotels",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.2,
+    "delta_accuracy": -0.016000000000000014
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "search_train_routes",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.2,
+    "delta_accuracy": -0.016000000000000014
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "check_in_passenger",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "dispute_charge",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.2,
+    "delta_accuracy": -0.016000000000000014
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "travel",
+    "candidate_name": "request_visa_check",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "compress_file",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.2,
+    "delta_accuracy": 0.00799999999999998
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "translate_text",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "lookup_case_law",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": 0.015999999999999986
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "compose_clause",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "search_regulatory_filings",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "archive_document",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "translate_contract",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "legal",
+    "candidate_name": "calculate_statute_of_limitations",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.19200000000000003,
+    "post_addition_accuracy": 0.19200000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "send_fax",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "generate_qr_code",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "execute_tests",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "release_service",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "create_release_notes",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.21600000000000003,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "get_last_commit_author",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": -0.008000000000000007
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "get_deployment_health",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": -0.008000000000000007
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "developer_tools",
+    "candidate_name": "provision_dev_environment",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.21600000000000003,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": -0.008000000000000007
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "translate_text",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.22400000000000003,
+    "delta_accuracy": -0.01599999999999996
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "send_fax",
+    "mutation_type": "random",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.22400000000000003,
+    "delta_accuracy": -0.01599999999999996
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "schedule_ticket",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.23200000000000004,
+    "delta_accuracy": -0.007999999999999952
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "lookup_tickets",
+    "mutation_type": "near_duplicate",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": -0.03199999999999997
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "update_deployment_status",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.20800000000000002,
+    "delta_accuracy": -0.03199999999999997
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "reassign_reviewer",
+    "mutation_type": "schema_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.22400000000000003,
+    "delta_accuracy": -0.01599999999999996
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "log_time_entry",
+    "mutation_type": "description_confusable",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.24,
+    "delta_accuracy": 0.0
+  },
+  {
+    "model": "mock:claude-haiku-4-5",
+    "family": "project_management",
+    "candidate_name": "generate_burndown_chart",
+    "mutation_type": "mixed_realistic",
+    "catalog_size": 6,
+    "baseline_accuracy": 0.24,
+    "post_addition_accuracy": 0.22400000000000003,
+    "delta_accuracy": -0.01599999999999996
+  }
+]

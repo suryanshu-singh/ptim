@@ -1,0 +1,78 @@
+[study] 10 conditions built: ['search_d1_small', 'search_d2_small', 'search_d3_small', 'messaging_d1_small', 'messaging_d2_small', 'search_d1_large', 'search_d2_large', 'search_d3_large', 'messaging_d1_large', 'messaging_d2_large']
+    search_d1_small: 17 tools
+    search_d2_small: 22 tools
+    search_d3_small: 23 tools
+    messaging_d1_small: 23 tools
+    messaging_d2_small: 38 tools
+    search_d1_large: 47 tools
+    search_d2_large: 52 tools
+    search_d3_large: 53 tools
+    messaging_d1_large: 53 tools
+    messaging_d2_large: 68 tools
+[batch] building requests for 10 conditions...
+[batch] submitting 2000 requests...
+[batch] batch id: msgbatch_013zcV7uKEAZtmCfezwchfYh
+[batch] saved batch id to E:\ptim\cross_server_collision_study\results\last_batch.json -- resume with --resume-batch-id msgbatch_013zcV7uKEAZtmCfezwchfYh if interrupted, instead of resubmitting.
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] status=in_progress processing=2000 succeeded=0 errored=0
+[batch] complete. MessageBatchRequestCounts(canceled=0, errored=0, expired=0, processing=0, succeeded=2000)
+[study] saved 40 (condition, task) results
+==============================================================================
+AMBIGUOUS-TASK ENTROPY vs. COLLISION DEGREE (0 = always same tool, 1 = fully confused)
+==============================================================================
+
+  search / small backbone:
+    degree=1  n_tools= 17  entropy=0.000  on_target_rate=1.000
+    degree=2  n_tools= 22  entropy=0.141  on_target_rate=1.000
+    degree=3  n_tools= 23  entropy=0.586  on_target_rate=1.000
+
+  search / large backbone:
+    degree=1  n_tools= 47  entropy=0.000  on_target_rate=1.000
+    degree=2  n_tools= 52  entropy=0.242  on_target_rate=1.000
+    degree=3  n_tools= 53  entropy=0.692  on_target_rate=1.000
+
+  messaging / small backbone:
+    degree=1  n_tools= 23  entropy=0.000  on_target_rate=1.000
+    degree=2  n_tools= 38  entropy=0.242  on_target_rate=1.000
+
+  messaging / large backbone:
+    degree=1  n_tools= 53  entropy=0.000  on_target_rate=1.000
+    degree=2  n_tools= 68  entropy=0.242  on_target_rate=1.000
+
+==============================================================================
+COLLATERAL DAMAGE: accuracy on UNRELATED tasks (time/git) as collision degree grows
+==============================================================================
+  [time_task] search/small: d1(n=17)=1.000  d2(n=22)=1.000  d3(n=23)=1.000
+  [time_task] search/large: d1(n=47)=1.000  d2(n=52)=1.000  d3(n=53)=1.000
+  [time_task] messaging/small: d1(n=23)=1.000  d2(n=38)=1.000
+  [time_task] messaging/large: d1(n=53)=1.000  d2(n=68)=1.000
+  [git_task] search/small: d1(n=17)=1.000  d2(n=22)=1.000  d3(n=23)=1.000
+  [git_task] search/large: d1(n=47)=1.000  d2(n=52)=1.000  d3(n=53)=1.000
+  [git_task] messaging/small: d1(n=23)=1.000  d2(n=38)=1.000
+  [git_task] messaging/large: d1(n=53)=1.000  d2(n=68)=1.000
+
+==============================================================================
+CAPABILITY-SPECIFIC: does the model wrongly reach for a look-alike that can't do the job?
+==============================================================================
+  [brave_local_task] large/degree1 (n_tools=47): accuracy=1.000  top_tool=brave_local_search (1.00)
+  [brave_local_task] large/degree2 (n_tools=52): accuracy=1.000  top_tool=brave_local_search (1.00)
+  [brave_local_task] large/degree3 (n_tools=53): accuracy=1.000  top_tool=brave_local_search (1.00)
+  [brave_local_task] small/degree1 (n_tools=17): accuracy=1.000  top_tool=brave_local_search (1.00)
+  [brave_local_task] small/degree2 (n_tools=22): accuracy=1.000  top_tool=brave_local_search (1.00)
+  [brave_local_task] small/degree3 (n_tools=23): accuracy=1.000  top_tool=brave_local_search (1.00)
+  [tavily_map_task] large/degree2 (n_tools=52): accuracy=1.000  top_tool=tavily_map (1.00)
+  [tavily_map_task] large/degree3 (n_tools=53): accuracy=1.000  top_tool=tavily_map (1.00)
+  [tavily_map_task] small/degree2 (n_tools=22): accuracy=1.000  top_tool=tavily_map (1.00)
+  [tavily_map_task] small/degree3 (n_tools=23): accuracy=1.000  top_tool=tavily_map (1.00)

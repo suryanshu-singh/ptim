@@ -1,0 +1,18 @@
+{
+  "batch_id": "msgbatch_013zcV7uKEAZtmCfezwchfYh",
+  "model": "claude-haiku-4-5",
+  "n_seeds": 10,
+  "n_samples": 5,
+  "condition_ids": [
+    "search_d1_small",
+    "search_d2_small",
+    "search_d3_small",
+    "messaging_d1_small",
+    "messaging_d2_small",
+    "search_d1_large",
+    "search_d2_large",
+    "search_d3_large",
+    "messaging_d1_large",
+    "messaging_d2_large"
+  ]
+}

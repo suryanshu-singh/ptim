@@ -1,0 +1,42 @@
+[stage0] backend=anthropic n_seeds=3 n_samples=5 batch=True disable_thinking=True effort=None
+[stage0] running interventions...
+[batch] building requests for 6 families...
+[batch] submitting 2700 requests as one batch (Batch API, 50% off standard pricing)...
+[batch] batch id: msgbatch_01EnEMhwgWDFtACzBcNcR73S
+[batch] saved batch id to E:\ptim\stage0_falsification\results\last_batch.json -- if this process is interrupted, resume with --resume-batch-id msgbatch_01EnEMhwgWDFtACzBcNcR73S instead of resubmitting.
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] status=in_progress processing=2700 succeeded=0 errored=0
+[batch] complete. request_counts: MessageBatchRequestCounts(canceled=0, errored=150, expired=0, processing=0, succeeded=2550)
+[batch] WARNING: 150 requests did not succeed (counted as 'none').
+[stage0] 450 raw (task, seed) records collected
+[stage0] saved 30 aggregated (family, candidate) records to datasets/
+[stage0] fitting cheap-baseline vs full-feature models (leave-one-family-out CV)...
+
+======================================================================
+n examples:        30
+cheap baseline R2: -0.056
+full model R2:     -0.114
+R2 gap:            -0.058  (threshold: 0.05)
+verdict:           DO_NOT_PROCEED_AS_STRUCTURAL_MODEL
+  Full-feature model does not clearly beat the cheap baseline (R^2 gap -0.058 <= 0.05). Per the falsification criterion, pivot to the benchmark/measurement framing instead of a structural-interaction-model paper.
+======================================================================
+full report saved to E:\ptim\stage0_falsification\results\stage0_report_anthropic.json

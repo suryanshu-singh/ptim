@@ -1,0 +1,558 @@
+[
+  {
+    "condition_id": "search_d1_small",
+    "task_id": "search_ambiguous",
+    "metric_type": "entropy",
+    "query": "Search the web for the current population of Japan.",
+    "correct_tool": null,
+    "valid_tools": [
+      "brave_web_search"
+    ],
+    "n_tools_in_catalog": 17,
+    "distribution": {
+      "brave_web_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_small",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 17,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_small",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 17,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_small",
+    "task_id": "brave_local_task",
+    "metric_type": "accuracy",
+    "query": "Find pizza restaurants near Central Park.",
+    "correct_tool": "brave_local_search",
+    "valid_tools": null,
+    "n_tools_in_catalog": 17,
+    "distribution": {
+      "brave_local_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_small",
+    "task_id": "search_ambiguous",
+    "metric_type": "entropy",
+    "query": "Search the web for the current population of Japan.",
+    "correct_tool": null,
+    "valid_tools": [
+      "brave_web_search",
+      "tavily_search"
+    ],
+    "n_tools_in_catalog": 22,
+    "distribution": {
+      "tavily_search": 0.98,
+      "brave_web_search": 0.02
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_small",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 22,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_small",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 22,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_small",
+    "task_id": "brave_local_task",
+    "metric_type": "accuracy",
+    "query": "Find pizza restaurants near Central Park.",
+    "correct_tool": "brave_local_search",
+    "valid_tools": null,
+    "n_tools_in_catalog": 22,
+    "distribution": {
+      "brave_local_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_small",
+    "task_id": "tavily_map_task",
+    "metric_type": "accuracy",
+    "query": "Map the structure of the website https://example.com and return the list of URLs found.",
+    "correct_tool": "tavily_map",
+    "valid_tools": null,
+    "n_tools_in_catalog": 22,
+    "distribution": {
+      "tavily_map": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_small",
+    "task_id": "search_ambiguous",
+    "metric_type": "entropy",
+    "query": "Search the web for the current population of Japan.",
+    "correct_tool": null,
+    "valid_tools": [
+      "brave_web_search",
+      "tavily_search",
+      "web_search_exa"
+    ],
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "web_search_exa": 0.74,
+      "tavily_search": 0.24,
+      "brave_web_search": 0.02
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_small",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_small",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_small",
+    "task_id": "brave_local_task",
+    "metric_type": "accuracy",
+    "query": "Find pizza restaurants near Central Park.",
+    "correct_tool": "brave_local_search",
+    "valid_tools": null,
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "brave_local_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_small",
+    "task_id": "tavily_map_task",
+    "metric_type": "accuracy",
+    "query": "Map the structure of the website https://example.com and return the list of URLs found.",
+    "correct_tool": "tavily_map",
+    "valid_tools": null,
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "tavily_map": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d1_small",
+    "task_id": "messaging_ambiguous",
+    "metric_type": "entropy",
+    "query": "Send the message 'Deployment complete' to the channel with ID 1234567890123.",
+    "correct_tool": null,
+    "valid_tools": [
+      "slack_post_message"
+    ],
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "slack_post_message": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d1_small",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d1_small",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 23,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d2_small",
+    "task_id": "messaging_ambiguous",
+    "metric_type": "entropy",
+    "query": "Send the message 'Deployment complete' to the channel with ID 1234567890123.",
+    "correct_tool": null,
+    "valid_tools": [
+      "send_message",
+      "slack_post_message"
+    ],
+    "n_tools_in_catalog": 38,
+    "distribution": {
+      "send_message": 0.96,
+      "slack_post_message": 0.04
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d2_small",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 38,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d2_small",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 38,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_large",
+    "task_id": "search_ambiguous",
+    "metric_type": "entropy",
+    "query": "Search the web for the current population of Japan.",
+    "correct_tool": null,
+    "valid_tools": [
+      "brave_web_search"
+    ],
+    "n_tools_in_catalog": 47,
+    "distribution": {
+      "brave_web_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_large",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 47,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_large",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 47,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d1_large",
+    "task_id": "brave_local_task",
+    "metric_type": "accuracy",
+    "query": "Find pizza restaurants near Central Park.",
+    "correct_tool": "brave_local_search",
+    "valid_tools": null,
+    "n_tools_in_catalog": 47,
+    "distribution": {
+      "brave_local_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_large",
+    "task_id": "search_ambiguous",
+    "metric_type": "entropy",
+    "query": "Search the web for the current population of Japan.",
+    "correct_tool": null,
+    "valid_tools": [
+      "brave_web_search",
+      "tavily_search"
+    ],
+    "n_tools_in_catalog": 52,
+    "distribution": {
+      "tavily_search": 0.96,
+      "brave_web_search": 0.04
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_large",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 52,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_large",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 52,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_large",
+    "task_id": "brave_local_task",
+    "metric_type": "accuracy",
+    "query": "Find pizza restaurants near Central Park.",
+    "correct_tool": "brave_local_search",
+    "valid_tools": null,
+    "n_tools_in_catalog": 52,
+    "distribution": {
+      "brave_local_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d2_large",
+    "task_id": "tavily_map_task",
+    "metric_type": "accuracy",
+    "query": "Map the structure of the website https://example.com and return the list of URLs found.",
+    "correct_tool": "tavily_map",
+    "valid_tools": null,
+    "n_tools_in_catalog": 52,
+    "distribution": {
+      "tavily_map": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_large",
+    "task_id": "search_ambiguous",
+    "metric_type": "entropy",
+    "query": "Search the web for the current population of Japan.",
+    "correct_tool": null,
+    "valid_tools": [
+      "brave_web_search",
+      "tavily_search",
+      "web_search_exa"
+    ],
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "web_search_exa": 0.58,
+      "tavily_search": 0.4,
+      "brave_web_search": 0.02
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_large",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_large",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_large",
+    "task_id": "brave_local_task",
+    "metric_type": "accuracy",
+    "query": "Find pizza restaurants near Central Park.",
+    "correct_tool": "brave_local_search",
+    "valid_tools": null,
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "brave_local_search": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "search_d3_large",
+    "task_id": "tavily_map_task",
+    "metric_type": "accuracy",
+    "query": "Map the structure of the website https://example.com and return the list of URLs found.",
+    "correct_tool": "tavily_map",
+    "valid_tools": null,
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "tavily_map": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d1_large",
+    "task_id": "messaging_ambiguous",
+    "metric_type": "entropy",
+    "query": "Send the message 'Deployment complete' to the channel with ID 1234567890123.",
+    "correct_tool": null,
+    "valid_tools": [
+      "slack_post_message"
+    ],
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "slack_post_message": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d1_large",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d1_large",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 53,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d2_large",
+    "task_id": "messaging_ambiguous",
+    "metric_type": "entropy",
+    "query": "Send the message 'Deployment complete' to the channel with ID 1234567890123.",
+    "correct_tool": null,
+    "valid_tools": [
+      "send_message",
+      "slack_post_message"
+    ],
+    "n_tools_in_catalog": 68,
+    "distribution": {
+      "slack_post_message": 0.04,
+      "send_message": 0.96
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d2_large",
+    "task_id": "time_task",
+    "metric_type": "accuracy",
+    "query": "What time is it in the timezone Asia/Tokyo?",
+    "correct_tool": "get_current_time",
+    "valid_tools": null,
+    "n_tools_in_catalog": 68,
+    "distribution": {
+      "get_current_time": 1.0
+    },
+    "n_draws": 50
+  },
+  {
+    "condition_id": "messaging_d2_large",
+    "task_id": "git_task",
+    "metric_type": "accuracy",
+    "query": "Show the working tree status of the repository at /home/user/project.",
+    "correct_tool": "git_status",
+    "valid_tools": null,
+    "n_tools_in_catalog": 68,
+    "distribution": {
+      "git_status": 1.0
+    },
+    "n_draws": 50
+  }
+]

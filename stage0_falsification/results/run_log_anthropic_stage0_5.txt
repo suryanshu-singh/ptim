@@ -1,0 +1,65 @@
+[stage0] backend=anthropic n_seeds=5 n_samples=5 batch=True disable_thinking=True effort=None
+[stage0] running interventions...
+[batch] building requests for 8 families...
+[batch] submitting 9000 requests as one batch (Batch API, 50% off standard pricing)...
+[batch] batch id: msgbatch_0162CApEJGkXfeCyRSmiZSzM
+[batch] saved batch id to E:\ptim\stage0_falsification\results\last_batch.json -- if this process is interrupted, resume with --resume-batch-id msgbatch_0162CApEJGkXfeCyRSmiZSzM instead of resubmitting.
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] status=in_progress processing=9000 succeeded=0 errored=0
+[batch] complete. request_counts: MessageBatchRequestCounts(canceled=0, errored=0, expired=0, processing=0, succeeded=9000)
+[stage0] 1600 raw (task, seed) records collected
+[stage0] saved 64 aggregated (family, candidate) records to datasets/
+[stage0] fitting cheap-baseline vs full-feature models (leave-one-family-out CV)...
+
+======================================================================
+n candidates:      64   n seeds: 5
+cheap baseline R2: 0.084   full model R2: 0.059   gap: -0.025
+mechanical verdict (do not treat as final -- see decision rules in PTIM_Stage_0_5_Refined_Experiment.md section 15-16): DO_NOT_PROCEED_AS_STRUCTURAL_MODEL
+
+effect-size distribution (delta_loss; positive = addition made things worse):
+  mean=0.0145 median=0.0000 std=0.0495 min=-0.0320 max=0.2000
+  p25=-0.0000 p75=0.0000  n(delta>0)=9 n(delta<0)=2 n(delta=0)=53
+
+Recall@10 (predicted-most-damaging vs actually-most-damaging):
+  cheap_linear: 0.40
+  full_linear: 0.40
+  full_gbr: 0.60
+
+repeatability subset (10 candidates, random.Random(seed=42).sample() over all candidate_ids, n=10):
+  calendar:check_weather                        delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  calendar:archive_old_events                   delta_mean=-0.0320 delta_std=0.0160 [delta exceeds 1 std -> looks like signal]
+  crm:translate_text                            delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  crm:search_marketing_campaigns                delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  crm:merge_duplicate_contacts                  delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  finance:send_fax                              delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  legal:compose_clause                          delta_mean=+0.1520 delta_std=0.0160 [delta exceeds 1 std -> looks like signal]
+  legal:calculate_statute_of_limitations        delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  project_management:reassign_reviewer          delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+  project_management:generate_burndown_chart    delta_mean=+0.0000 delta_std=0.0000 [delta exceeds 1 std -> looks like signal]
+======================================================================
+aggregate report saved to E:\ptim\stage0_falsification\results\stage0_report_anthropic.json
+per-candidate report (with repeatability) saved to E:\ptim\stage0_falsification\datasets\per_candidate_anthropic.json
